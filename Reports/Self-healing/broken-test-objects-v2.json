@@ -1,3 +1,54 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/auto2/Page_eTrieve/input_Back_flex h-10 rounded border-grey bo_106cfb_1_2_3_4",
+      "brokenLocator": "//input[@value\u003d\u0027sagi\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/auto2/Page_eTrieve/input_Back_flex h-10 rounded border-grey bo_106cfb_1_2_3_4_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/auto2/Page_eTrieve/div_Profile",
+      "brokenLocator": "//div[@id\u003d\u0027radix-«r4»\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/auto2/Page_eTrieve/div_Profile_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/auto2/Page_eTrieve/div_Logout",
+      "brokenLocator": "//div[@id\u003d\u0027radix-«r4»\u0027]/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/div/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/auto2/Page_eTrieve/div_Logout_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/test case.auto1/Page_eTrieve/polygon",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "internal:role\u003dcell[name\u003d\"Lab Reference\"i] \u003e\u003e polygon",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/test case.auto1/Page_eTrieve/polygon_SMART_LOCATOR.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/test case.auto1/Page_eTrieve/input_Back_flex h-10 rounded border-grey bo_106cfb_1_2_3_4",
+      "brokenLocator": "//input[@value\u003d\u0027sagi\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/test case.auto1/Page_eTrieve/input_Back_flex h-10 rounded border-grey bo_106cfb_1_2_3_4_position.png"
+    }
+  ]
 }
